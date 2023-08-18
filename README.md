@@ -2,7 +2,7 @@
 
 melody.nvim is a Neovim plugin that allows you to search and play music tracks directly from your Neovim environment using the Telescope picker. It integrates with the `mpv` media player and provides a convenient way to search for and play music files without leaving your coding environment.
 
-**NOTE** this plugin is experimental and under development!
+**NOTE**: this plugin is experimental and under development! 👷
 
 ## Features
 
