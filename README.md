@@ -22,7 +22,7 @@ Install the required plugins using your preferred package manager. For example, 
         "nvim-telescope/telescope.nvim",
         "nvim-lua/plenary.nvim"
     },
-    event = "LspAttach",
+    event = "BufReadPre",
     keys = {
         { "<leader>mm", "<cmd>lua require('melody').music_search()<cr>)", desc = "Melody search" },
     },

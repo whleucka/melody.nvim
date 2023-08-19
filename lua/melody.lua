@@ -118,7 +118,7 @@ function M.music_search()
 					results = tracks,
 					entry_maker = function(track)
 						local tag = readtags(track) or {}
-						local display = string.format("%s - %s; %s [%s]", tag.artist, tag.title, tag.album, tag.year)
+						local display = string.format("[%s] %s - %s", tag.year, tag.artist, tag.title)
 						if tag.artist == nil then
 							display = track
 						end
